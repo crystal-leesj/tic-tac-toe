@@ -12,7 +12,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Basic Functionality
 
-- First player will always be 'O' and the second player will be 'X.'
+- First player will always be `O` and the second player will be `X`.
 - Game is won once a player gets a bingo. The winner will be displayed.
 - Game can be reset anytime.
 
@@ -20,5 +20,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 - Always been curious to use React Hooks and Typescript so I learned and implemeted on this project.
 - Decided not to import any CSS library to improve loading performance. But always happy to work with CSS. :)
-- On Table.tsx, <Cell /> components can look redundant but left it for readability. Nested .map() can improve redendancy but that's more fitting if the table need to be dynamic like 5x5 or 10x10.
-- Adding unit tests can bring to higher standard.
+- On `Table.tsx`, `<Cell />` components can look redundant but left it for readability. Nested `.map()` can improve redendancy but that's more fitting if the table need to be dynamic like 5x5 or 10x10.
+
+### Rooms to improve (with more time)
+
+- Adding unit tests can bring higher standard.
+- Responsive can be improved with Media Query and flexbox.
+- Cross browser compatibility can be tested with tools like BrowserStack
+- Accessibility can be tested with tools like Lighthouse.
